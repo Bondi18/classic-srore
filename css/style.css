@@ -301,7 +301,7 @@ body {
 
 .footer__start {
     background-image: url(../img/sea.jpg);
-    height: 448px;
+    min-height: 448px;
 }
 
 .footer__text {
