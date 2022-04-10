@@ -1,0 +1,81 @@
+.form__registration {
+    margin-top: 64px;
+    margin-bottom: 96px;
+    width: 360px;
+}
+
+.form__legend--text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.form__radio {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.form__radio--text {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.form__button {
+    width: 167px;
+    height: 50px;
+    background-color: #F16D7F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__button--text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding-right: 20px;
+}
+
+.form__block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__button:hover {
+    background-color: red;
+}
+
+.form__button:active {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.form__button:focus {
+    outline: 5px solid coral;
+}
+
+.form__first {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__second {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__text {
+    max-width: 359px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    padding-top: 15px;
+    padding-bottom: 39px;
+}

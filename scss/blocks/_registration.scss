@@ -1,0 +1,43 @@
+.registration__input {
+    width: 360px;
+    margin-top: 20px;
+    height: 45px;
+    padding-left: 17px;
+
+    & {
+        &:hover {
+            background-color: #F16D7F;
+            border: 2px solid rgb(174, 0, 255);
+        }
+    }
+
+    & {
+        &:active {
+            background-color: #ff0077;
+            border: 2px solid rgb(0, 255, 42);
+        }
+    }
+
+    & {
+        &:focus {
+            outline: 5px solid green;
+        }
+    }
+}
+
+
+
+.registration__background {
+    background-color: #F8F3F4;
+    min-height: 148px;
+    display: flex;
+    align-items: center;
+
+    &--text {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #F16D7F;
+        text-transform: uppercase;
+    }
+}

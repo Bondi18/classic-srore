@@ -1,0 +1,149 @@
+.header {
+    background-color: #222222;
+    position: relative;
+}
+
+.header__nav {
+    display: none;
+    position: absolute;
+    width: 232px;
+    min-height: 764px;
+    right: 0;
+    top: 75px;
+    background-color: #FFFFFF;
+    padding-left: 34px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+.header__input {
+    padding-left: 20px;
+}
+
+.header__input--text {
+    background-color: #5D5D5D;
+    color: white;
+}
+
+.header__burger:hover+.header__nav,
+.header__burger:focus+.header__nav {
+    display: block;
+}
+
+.header__nav-cross {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header__nav-cross-img {
+    margin: 16px 16px 0 0;
+}
+
+.header__nav-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-transform: uppercase;
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+
+.header__nav-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
+
+.header__nav-item-padding {
+    padding-top: 20px;
+}
+
+.header__wrp {
+    display: flex;
+    align-items: center;
+    min-height: 75px;
+    justify-content: space-between;
+}
+
+.header__menu-list {
+    display: flex;
+    align-items: center;
+}
+
+.header__burger {
+    border: none;
+    background-color: transparent;
+}
+
+.header__logo {
+    margin-right: 41px;
+}
+
+.header__link {
+    margin-left: 33px;
+}
+
+.header__search-icon {
+    fill: white;
+    padding-top: 10px;
+}
+
+.header__search-icon:hover {
+    fill: coral;
+    cursor: pointer;
+}
+
+.header__search-icon:active {
+    fill: crimson;
+}
+
+
+.header__burger-icon {
+    fill: white;
+}
+
+.header__burger-icon:hover {
+    fill: coral;
+}
+
+.header__burger-icon:active {
+    fill: crimson;
+}
+
+.header__burger:focus {
+    outline: 2px solid green;
+}
+
+.header__link:focus {
+    outline: 2px solid green;
+}
+
+.header__person-icon {
+    fill: white;
+}
+
+.header__person-icon:hover {
+    fill: coral;
+}
+
+.header__person-icon:active {
+    fill: crimson;
+}
+
+.header__bascket-icon {
+    fill: white;
+}
+
+.header__bascket-icon:hover {
+    fill: coral;
+}
+
+.header__bascket-icon:active {
+    fill: crimson;
+}

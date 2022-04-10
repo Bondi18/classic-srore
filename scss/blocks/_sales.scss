@@ -1,0 +1,53 @@
+.sales__item {
+    height: 260px;
+    width: 360px;
+    background-color: #4e4544;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+
+    &--women {
+        background-image: url(../img/sales_women.jpg);
+
+    }
+
+    &--men {
+        background-image: url(../img/sales_men.jpg);
+        margin: 0 30px 30px 30px;
+    }
+
+    &--kids {
+        background-image: url(../img/sales_kids.jpg);
+    }
+
+    &--whoes {
+        background-image: url(../img/sales_groupe.jpg);
+        width: 100%;
+        height: 180px;
+        margin-bottom: 97px;
+    }
+
+    &-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+}
+
+
+
+.sales__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+.sales__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

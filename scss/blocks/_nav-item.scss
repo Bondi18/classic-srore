@@ -1,0 +1,18 @@
+.nav-item__title {
+    padding-top: 11px;
+    padding-left: 20px;
+    opacity: 0.6;
+
+    & {
+        &:hover {
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
+
+    & {
+        &:active {
+            color: coral;
+        }
+    }
+}
