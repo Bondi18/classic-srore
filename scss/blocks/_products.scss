@@ -3,6 +3,14 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 48px;
+
+    @include tablet {
+        margin-bottom: 72px;
+    }
+
+    @include mobile {
+        margin-bottom: 64px;
+    }
 }
 
 .products__title {
@@ -28,13 +36,32 @@
 .products__list {
     display: flex;
     flex-wrap: wrap;
+
+    @include tablet {
+        justify-content: space-evenly;
+    }
 }
 
+.products-container {
+    max-width: 1140px;
+    margin: 0 auto;
 
+}
 
 .products__item-margin {
     margin-left: 30px;
     margin-right: 30px;
+
+    @include mobile {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    @include tablet {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
 }
 
 .products__box {
@@ -73,6 +100,8 @@
     width: 360px;
     margin-bottom: 30px;
     position: relative;
+
+
 }
 
 .products-wrapper-overlay::before {

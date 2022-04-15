@@ -2,6 +2,16 @@
     margin-top: 64px;
     margin-bottom: 96px;
     width: 360px;
+
+    @include tablet {
+        padding-left: 16px;
+        margin-bottom: 40px;
+    }
+
+    @include mobile {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
 }
 
 .form__legend--text {
@@ -45,6 +55,19 @@
 .form__block {
     display: flex;
     justify-content: space-between;
+
+    @include mobile {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.form__block-container {
+    max-width: 1140px;
+    margin: 0 auto;
+
+  
 }
 
 .form__button:hover {
@@ -78,4 +101,8 @@
     color: #B1B1B1;
     padding-top: 15px;
     padding-bottom: 39px;
+
+    @include mobile {
+        padding-bottom: 39px;
+    }
 }

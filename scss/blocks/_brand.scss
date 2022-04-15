@@ -2,6 +2,14 @@
     display: flex;
     margin-bottom: 64px;
 
+    @include tablet {
+        margin-bottom: 35px;
+    }
+
+    @include mobile {
+        margin-bottom: 64px;
+    }
+
     &__title-wrp {
         flex-grow: 1;
         background-color: #F1E4E6;
@@ -12,7 +20,7 @@
 
     &__img {
         height: 765px;
-        width: 800px;
+        width: 50%;
     }
 
     &__title {
@@ -36,5 +44,54 @@
     &__title-border {
         border-left: 12px solid #F16D7F;
         padding-left: 16px;
+    }
+}
+
+@media (max-width: $desktop-width) {
+    .brand {
+        &__img {
+            height: 100%;
+        }
+
+        &__title {
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 53px;
+        }
+
+        &__title-lower {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+        }
+
+        &__title-wrp {
+            padding-left: 40px;
+        }
+    }
+}
+
+@media (max-width: $tablet-width) {
+    .brand {
+        &__title {
+            font-weight: 900;
+            font-size: 38px;
+            line-height: 45px;
+        }
+
+        &__img {
+            display: none;
+        }
+
+        &__title-lower {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        &__title-wrp {
+            padding-left: 56px;
+            min-height: 363px;
+        }
     }
 }

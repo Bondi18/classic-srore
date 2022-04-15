@@ -26,6 +26,8 @@
 .header__input--text {
     background-color: #5D5D5D;
     color: white;
+    border-radius: 5px;
+    border-bottom: 1px solid #E1E1E1;
 }
 
 .header__burger:hover+.header__nav,
@@ -146,4 +148,11 @@
 
 .header__bascket-icon:active {
     fill: crimson;
+}
+
+
+@media (max-width: $tablet-width) {
+    .header__link {
+        display: none;
+    }
 }

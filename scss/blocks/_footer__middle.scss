@@ -2,6 +2,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @include tablet {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @include mobile {
+        margin-top: 100px;
+    }
 }
 
 .footer__middle-wrp {
@@ -42,6 +52,15 @@
     &-form {
         display: flex;
         margin-top: 32px;
+
+        @include tablet {
+            margin-top: 27px;
+            margin-bottom: 140px;
+        }
+
+        @include mobile {
+            margin-bottom: 109px;
+        }
     }
 
     &-input {

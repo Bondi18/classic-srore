@@ -4,15 +4,9 @@ body {
     line-height: 17px;
     font-style: normal;
     font-weight: 400;
-    width: 1600px;
+    max-width: 1600px;
     margin: 0 auto;
 }
-
-.container {
-    width: 1140px;
-    margin: 0 auto;
-}
-
 
 
 button {
@@ -34,4 +28,17 @@ button {
     height: 1px !important;
     width: 1px !important;
     overflow: hidden;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@media (max-width: 3000px) {
+    .container{
+        width: 92%;
+    }
+
+    
 }

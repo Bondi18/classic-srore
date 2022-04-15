@@ -2,6 +2,15 @@
     background-color: #222224;
     padding: 103px 0;
 
+    @include tablet {
+        padding-bottom: 64px;
+        padding-top: 0;
+    }
+
+    @include tablet {
+        padding-bottom: 81px;
+    }
+
     &__item {
         display: flex;
         width: 360px;
@@ -13,6 +22,11 @@
         display: flex;
         justify-content: space-between;
 
+        @include tablet {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
     }
 
     &__title {
@@ -33,13 +47,25 @@
 
     &__img-car {
         margin-bottom: 28px;
+
+        @include tablet {
+            margin-top: 48px;
+        }
     }
 
     &__img-sales {
         margin-bottom: 20px;
+
+        @include tablet {
+            margin-top: 48px;
+        }
     }
 
     &__img-king {
         margin-bottom: 25px;
+
+        @include tablet {
+            margin-top: 48px;
+        }
     }
 }
