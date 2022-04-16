@@ -36,9 +36,21 @@ button {
 }
 
 @media (max-width: 3000px) {
-    .container{
-        width: 92%;
+    .container {
+        width: 94%;
     }
 
-    
+
+}
+
+.carusel {
+    z-index: -1;
+}
+
+.icon {
+    background-color: gray;
+}
+
+.icon:hover {
+    fill: #F16D7F;
 }
