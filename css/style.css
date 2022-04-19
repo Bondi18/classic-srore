@@ -89,8 +89,20 @@ button {
 
 @media (max-width: 3000px) {
   .container {
-    width: 92%;
+    width: 94%;
   }
+}
+
+.carusel {
+  z-index: -1;
+}
+
+.icon {
+  background-color: gray;
+}
+
+.icon:hover {
+  fill: #F16D7F;
 }
 
 .header {
@@ -398,7 +410,7 @@ button {
 
 .sales__item--men {
   background-image: url(../img/sales_men.jpg);
-  margin: 0 30px 30px 30px;
+  margin: 0 0 20px 0;
 }
 
 @media (max-width: 1599px) {
@@ -1122,7 +1134,7 @@ button {
 }
 
 .form__info--item--img {
-  padding-right: 23px;
+  margin-right: 23px;
 }
 
 .forma__text {
@@ -1237,4 +1249,211 @@ input::placeholder {
   line-height: 29px;
   color: #F16D7F;
   text-transform: uppercase;
+}
+
+.registration__background--box {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .registration__background--box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.product__background--list {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .product__background--list {
+    margin-top: 32px;
+  }
+}
+
+.product__background--item--choose {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+}
+
+.product__background--item--choose:hover {
+  color: #F16D7F;
+}
+
+.product__background--item {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.product__background--item--padding {
+  padding-left: 5px;
+}
+
+.product__dropdowns {
+  display: flex;
+  justify-content: center;
+}
+
+.product__title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16D7F;
+  padding-top: 65px;
+  padding-bottom: 12px;
+}
+
+.product__title--lower {
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4D4D4D;
+  margin-top: 12px;
+  margin-bottom: 48px;
+}
+
+.product__text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #5E5E5E;
+  margin: 0 auto;
+  max-width: 555px;
+  padding-bottom: 32px;
+}
+
+.product__price {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #EF5B70;
+  text-align: center;
+}
+
+.product__line {
+  height: 3px;
+  width: 63px;
+  background-color: #EF5B70;
+  margin: 0 auto;
+}
+
+.product__cartbox {
+  border: 1px solid #EAEAEA;
+  margin-top: -65px;
+  background-color: #FFFFFF;
+  margin-bottom: 129px;
+  margin-top: -65px;
+  position: relative;
+}
+
+@media (max-width: 1599px) {
+  .product__cartbox {
+    margin-top: 0;
+    width: 100%;
+  }
+}
+
+.product__line--under {
+  max-width: 641px;
+  margin: 0 auto;
+  margin-bottom: 65px;
+  margin-top: 65px;
+}
+
+.product__dropdowns--button {
+  background-color: white;
+  color: #6F6E6E;
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .product__dropdowns--button {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #6F6E6E;
+  }
+}
+
+.product__dropdowns--button:hover {
+  background-color: white;
+  color: #6F6E6E;
+  border: none;
+}
+
+.product__dropdowns--button:active {
+  background-color: white;
+  color: #6F6E6E;
+  border: none;
+}
+
+.product__button--box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product__button {
+  border: 1px solid #FF6A6A;
+  padding: 14px 56px 13px 23px;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 45px;
+  margin-bottom: 65px;
+}
+
+.product__button:hover {
+  background-color: black;
+}
+
+.product__button:active {
+  background-color: rosybrown;
+}
+
+.product__button--img {
+  fill: #EF5B70;
+}
+
+.product__button--text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F26376;
+  padding-left: 23px;
+}
+
+.product__dropdowns--list {
+  margin-right: 22px;
+  margin-left: 22px;
+}
+
+@media (max-width: 768px) {
+  .product-item {
+    display: none;
+  }
+}
+
+@media (max-width: 1599px) {
+  .product__list {
+    margin-bottom: 129px;
+  }
+}
+
+.product__box--link {
+  text-decoration: none;
+}
+
+.product__box--link:hover .products__item-title {
+  color: #EF5B70;
 }
